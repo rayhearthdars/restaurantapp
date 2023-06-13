@@ -1,0 +1,43 @@
+.card_and_modale {
+    display: flex;
+    flex-direction: column;
+	justify-content:center;
+	align-items: center;   
+}
+
+.card {
+	height: 20rem;
+	background-color: #faebd7;
+	width: 20rem;
+	border-radius: 15px;
+	padding: 4rem 1rem 2rem 1rem;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card_img_container {
+	width: 15rem;
+    margin: 0 auto;
+	overflow: hidden;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card img {
+	height: 15rem;
+}
+.card h3 {
+	font-family: "Ole", cursive, sans-serif;
+	font-size: 2rem;
+	text-align: center;
+	color: #345b18;
+}
+
+.card p {
+	text-align: center;
+	color: #345b18;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

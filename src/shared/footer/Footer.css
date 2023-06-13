@@ -1,0 +1,13 @@
+footer {
+	margin-top: 2rem;
+	height: 12rem;
+	background-color: #cf2001;
+}
+
+footer p {
+	color: #faebd7;
+	font-family: "Ole", cursive;
+	text-align: center;
+	padding: 3rem;
+	font-size: 5rem;
+}

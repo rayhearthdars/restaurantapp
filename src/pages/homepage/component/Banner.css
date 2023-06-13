@@ -1,0 +1,48 @@
+.choose {
+	background-image: url("../../../assets/restaurantMobile.jpg");
+	background-repeat: no-repeat;
+	
+	background-size: auto;
+	height: 25rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+.choose h2 {
+	padding: 0rem;
+	color: #43660a;
+	background-color: #faebd7a9;
+	border-radius: 15px;
+	position: relative;
+	top: -7rem;
+	font-family: "Ole", cursive;
+	font-size: 3rem;
+	text-align: center;
+	text-overflow: clip;
+}
+@media screen and (min-width: 500px) {
+	.choose {
+		background-image: url("../../../assets/restaurantIntermediaire.jpg");
+		height: 30rem;
+		background-size: cover;
+	}
+	.choose h2 {
+		padding: 0.5rem;
+		font-size: 4rem;
+	}
+}
+@media screen and (min-width: 728px) {
+	.choose {
+		background-image: url("../../../assets/restaurantDesktop.jpg");
+		background-attachment: fixed;
+		height: 45rem;
+		background-size: cover;
+		padding: 2rem;
+	}
+	.choose h2 {
+		font-size: 7rem;
+	}
+}
