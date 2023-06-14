@@ -13,6 +13,8 @@ export const RestaurantContext = createContext<RestaurantContextType>({} as Rest
 export const useRestaurantContext = () => useContext(RestaurantContext);
 
 export const RestaurantContextProvider = ({ children }: { children: React.ReactNode }) => {
+	// I don't see the point of this render, the modal is linked to the favorites so it should 
+	// only be maintained in the favorites context
 	const [render, setRender] = useState(false);
 	const reRender = () => {
 		if (render) {
