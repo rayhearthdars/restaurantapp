@@ -7,6 +7,9 @@ export const Header = () => {
 	const currentPage = window.location.pathname;
 	const { reRender, showModal } = useFavoriteContext();
 
+	// Just, as I told you, I would have kept the favoris link on every page
+	// And put the return to home on "Delices"
+	// And yes, Delices is the h1 of the website !
 	return (
 		<header>
 			<h1>Delices</h1>
