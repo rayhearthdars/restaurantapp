@@ -22,6 +22,7 @@ export const Details = () => {
 		setRestaurantData(value);
 	}, [value]);
 
+	// Rather than null you can display a message for the user
 	if (typeof restaurantData === "undefined") return null;
 	return (
 		<main className="details_container">
