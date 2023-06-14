@@ -5,6 +5,7 @@ import "./Modale.css";
 export const Modale = ({ restoId }: { restoId: number }) => {
 	const { show, showModal, reRender, removeFavorite } = useFavoriteContext();
 
+	// Show should be a boolean, it is just to display the modal or not
 	if (show === restoId) {
 		return (
 			<div className="modale">
