@@ -7,6 +7,7 @@ export const FavoriteCardsList = () => {
 	const { restaurants } = useContext(RestaurantContext);
 	const { favorites } = useFavoriteContext();
 
+	// This could be the CardsList, there was no need for another component
 	const favoriteRestaurant = restaurants.filter((res) => favorites.includes(res.id));
 	return (
 		<main>

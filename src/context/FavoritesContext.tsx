@@ -20,6 +20,8 @@ export const FavoritesContextProvider = ({ children }: { children: React.ReactNo
 	const getFavorites = JSON.parse(localStorage.getItem(`favorites`) || "[]");
 	const [favorites, setFavorites] = useState<number[]>(getFavorites);
 
+	// I don't think this render is useful
+	// You can just use the show modal as a boolean
 	const [render, setRender] = useState(false);
 	const reRender = () => {
 		if (render) {
